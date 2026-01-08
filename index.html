@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rupam Sana | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- GOOGLE FONTS -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <div class="nav-container">
+    <div class="logo"></div>
+
+    <ul class="nav-links">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <div class="hero-container">
+
+    <!-- LEFT -->
+    <div class="hero-text reveal">
+      <h1>Rupam <span>Sana</span></h1>
+      <h2>I’m a <span id="typing"></span></h2>
+
+      <p>
+        Detail-oriented BCA (6th Semester) student with hands-on experience in
+        Python, Django, and full-stack web development.
+      </p>
+
+      <div class="btn-group">
+        <a href="#contact" class="btn-outline">Contact Me</a>
+        <a href="Resume.pdf" class="btn" download>Download CV</a>
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="hero-image reveal">
+      <div class="profile-wrapper">
+        <span class="arc"></span>
+        <span class="arc arc2"></span>
+
+        <div class="circle">
+          <img src="./images/rupam.jpeg" alt="Rupam Sana">
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="services" id="services">
+  <h2 class="section-title">My <span>Services</span></h2>
+
+  <div class="services-container">
+
+    <div class="service-card reveal">
+      <div class="service-icon">💻</div>
+      <h3>Web Development</h3>
+      <p>Responsive and scalable web apps using HTML, CSS, JS, Python & Django.</p>
+    </div>
+
+    <div class="service-card reveal">
+      <div class="service-icon">⚙️</div>
+      <h3>Backend Development</h3>
+      <p>Secure backend systems, authentication, APIs & database integration.</p>
+    </div>
+
+    <div class="service-card reveal">
+      <div class="service-icon">📊</div>
+      <h3>Dashboard & Analytics</h3>
+      <p>Interactive dashboards, charts and data visualization.</p>
+    </div>
+
+    <div class="service-card reveal">
+      <div class="service-icon">🔐</div>
+      <h3>Authentication System</h3>
+      <p>Login, signup, role-based access control and security.</p>
+    </div>
+
+    <div class="service-card reveal">
+      <div class="service-icon">🌐</div>
+      <h3>API Integration</h3>
+      <p>Third-party API integration like weather & external services.</p>
+    </div>
+
+    <div class="service-card reveal">
+      <div class="service-icon">🚀</div>
+      <h3>Deployment</h3>
+      <p>Deploying projects on GitHub Pages, Render & cloud platforms.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section class="projects" id="portfolio">
+  <h2 class="section-title">My <span>Projects</span></h2>
+
+  <div class="projects-container">
+
+    <!-- Project 1 -->
+    <div class="project-card reveal">
+      <div class="project-image">
+        <img src="./images/2.jpeg" alt="Expense Tracker">
+        <div class="project-overlay">
+          <a href="https://github.com/rupamsana73" target="_blank">GitHub</a>
+          <a href="#" target="_blank">Live</a>
+        </div>
+      </div>
+
+      <div class="project-info">
+        <h3>Expense Tracker</h3>
+        <p>
+          Django-based expense tracker with authentication, income/expense
+          management, charts and CSV export.
+        </p>
+
+        <div class="tech-stack">
+          <span>Django</span>
+          <span>Python</span>
+          <span>SQLite</span>
+          <span>Chart.js</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card reveal">
+      <div class="project-image">
+        <img src="./images/5.jpeg" alt="Weather App">
+        <div class="project-overlay">
+          <a href="https://github.com/rupamsana73" target="_blank">GitHub</a>
+          <a href="#" target="_blank">Live</a>
+        </div>
+      </div>
+
+      <div class="project-info">
+        <h3>Weather App</h3>
+        <p>
+          Django weather app using OpenWeather API with 5-day forecast
+          and animated UI.
+        </p>
+
+        <div class="tech-stack">
+          <span>Django</span>
+          <span>API</span>
+          <span>HTML</span>
+          <span>CSS</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- RESUME SECTION -->
+<section class="resume" id="resume">
+  <div class="resume-container">
+
+    <!-- LEFT -->
+    <div class="resume-left reveal">
+      <h2>Why Hire <span>Me?</span></h2>
+      <p>
+        Passionate Python & Django developer with strong fundamentals,
+        real-world project experience, and clean UI-focused development.
+      </p>
+
+      <div class="resume-tabs">
+        <button class="tab-btn active" data-tab="experience">Experience</button>
+        <button class="tab-btn" data-tab="education">Education</button>
+        <button class="tab-btn" data-tab="skills">Skills</button>
+        <button class="tab-btn" data-tab="about">About Me</button>
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="resume-right reveal">
+
+      <!-- EXPERIENCE -->
+      <div class="tab-content active" id="experience">
+        <h3>My <span>Experience</span></h3>
+
+        <div class="resume-grid">
+          <div class="resume-card">
+            <span class="year">2024 – Present</span>
+            <h4>Python / Django Developer</h4>
+            <p>Personal Projects</p>
+          </div>
+
+          <div class="resume-card">
+            <span class="year">2023 – 2024</span>
+            <h4>Web Development</h4>
+            <p>HTML, CSS, JavaScript Projects</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- EDUCATION -->
+      <div class="tab-content" id="education">
+        <h3>My <span>Education</span></h3>
+
+        <div class="resume-grid">
+          <div class="resume-card">
+            <span class="year">2022 – 2025</span>
+            <h4>BCA (Bachelor of Computer Applications)</h4>
+            <p>6th Semester • India</p>
+          </div>
+        </div>
+      </div>
+
+    <!-- SKILLS -->
+<div class="tab-content" id="skills">
+  <h3>My <span>Skills</span></h3>
+
+  <div class="skills-grid">
+    <div class="skill-card">HTML</div>
+    <div class="skill-card">CSS</div>
+    <div class="skill-card">JavaScript</div>
+    <div class="skill-card">Python</div>
+    <div class="skill-card">Django</div>
+    <div class="skill-card">SQLite</div>
+    <div class="skill-card">Git & GitHub</div>
+  </div>
+</div> 
+
+
+
+   <!-- ABOUT -->
+<div class="tab-content" id="about">
+  <h3>About <span>Me</span></h3>
+
+  <div class="about-grid">
+    <p class="about-item"><span>Name:</span> Rupam Sana</p>
+    <p class="about-item"><span>Role:</span> Python Web Developer</p>
+    <p class="about-item"><span>Location:</span> West Bengal, India</p>
+    <p class="about-item"><span>Email:</span> rupamsana73@gmail.com</p>
+    <p class="about-item"><span>Status:</span> Open to Work</p>
+  </div>
+</div>
+
+</section>
+<!-- ================= CONTACT ================= -->
+<section class="contact" id="contact">
+  <div class="contact-container">
+
+    <!-- LEFT -->
+    <div class="contact-left reveal">
+      <h2>Let's Work <span>Together</span></h2>
+      <p>
+        Have a project in mind or want to collaborate?
+        Feel free to reach out — I'm always open to discussion.
+      </p>
+
+      <div class="contact-info">
+        <div class="contact-item">
+          <span>📞</span>
+          <div>
+            <h4>Phone</h4>
+            <p>+91 8583980450</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <span>📧</span>
+          <div>
+            <h4>Email</h4>
+            <p>rupamsana73@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <span>📍</span>
+          <div>
+            <h4>Location</h4>
+            <p>Howrah,West Bengal</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="contact-right reveal">
+      <h3>Contact <span>Me!</span></h3>
+
+      <form class="contact-form">
+        <div class="form-row">
+          <input type="text" placeholder="Full Name" required>
+          <input type="email" placeholder="Email Address" required>
+        </div>
+
+        <div class="form-row">
+          <input type="text" placeholder="Phone Number">
+          <input type="text" placeholder="Email Subject">
+        </div>
+
+        <textarea placeholder="Your Message"></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer" id="contact">
+  <h2>Connect With Me</h2>
+
+  <div class="footer-links">
+    <a href="https://github.com/rupamsana73" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/rupam-sana-92a59935a/" target="_blank">LinkedIn</a>
+    <a href="https://instagram.com/" target="_blank">Instagram</a>
+    <a href="https://facebook.com/" target="_blank">Facebook</a>
+    <a href="mailto:rupamsana73@gmail.com">Gmail</a>
+  </div>
+
+  <p>© 2026 Rupam Sana. All rights reserved.</p>
+</footer>
+
+<!-- JS -->
+<script src="./js/script.js"></script>
+</body>
+</html>
+
